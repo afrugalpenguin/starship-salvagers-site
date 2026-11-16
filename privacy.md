@@ -6,7 +6,7 @@ title: Privacy Policy
 
 Last updated: 16th November 2026
 
-Starship Salvagers is made by Russell Dunn, trading as afrugalpenguin games, in the United Kingdom ("I", "me"). This policy covers the game on Steam and its free demo.
+Starship Salvagers is made by afrugalpenguin, an independent developer based in the United Kingdom ("I", "me"). This policy covers the game on Steam and its free demo.
 
 ## The short version
 
