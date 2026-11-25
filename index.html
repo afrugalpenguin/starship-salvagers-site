@@ -25,6 +25,9 @@
   .cta { display: inline-flex; align-items: center; min-height: 52px; padding: 0 32px; background: #3affc8; color: #0b0a12; font-weight: 700; font-size: 18px; text-decoration: none; border-radius: 4px; }
   .cta:hover, .cta:focus-visible { background: #e6dcc4; }
   .cta:focus-visible { outline: 3px solid #e6dcc4; outline-offset: 3px; }
+  .actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
+  .cta.alt { background: transparent; color: #3affc8; box-shadow: inset 0 0 0 2px #3affc8; }
+  .cta.alt:hover, .cta.alt:focus-visible { background: transparent; color: #e6dcc4; box-shadow: inset 0 0 0 2px #e6dcc4; }
   .note { margin: 0; font-size: 15px; color: #b3aa98; }
   footer { position: relative; display: flex; justify-content: center; flex-wrap: wrap; gap: 24px; padding: 20px 24px 28px; font-size: 14px; color: #b3aa98; }
   footer a { color: #b3aa98; }
@@ -38,7 +41,10 @@
     <img class="logo" src="logo.png" alt="Starship Salvagers" width="1280" height="720">
     <p class="tagline">One last haul.</p>
     <p class="pitch">A top-down shooter roguelite about a salvage crew on a dead, hive-infested freighter.</p>
-    <a class="cta" href="https://store.steampowered.com/app/5634800/Starship_Salvagers/?utm_source=playsalvagers">Wishlist on Steam</a>
+    <div class="actions">
+      <a class="cta" href="https://store.steampowered.com/app/5634800/Starship_Salvagers/?utm_source=playsalvagers">Wishlist on Steam</a>
+      <a class="cta alt" href="steam://store/5634800">Open in the Steam app</a>
+    </div>
     <p class="note">Free demo at Steam Next Fest, 22 February to 1 March 2027</p>
   </main>
   <footer>
